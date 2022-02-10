@@ -4,6 +4,14 @@ let player1;
 let player2;
 
 
+for(i=0; i<3; i++){
+    let row= document.createElement("div");
+    for (j=0; j<3; i++){
+    var box= document.createElement("div");
+    row.appendChild(box);
+    }
+    document.getElementById("container").appendChild("row");
+}
 
 //create a grid
 //style gird so it appears like a TicTacBoard
