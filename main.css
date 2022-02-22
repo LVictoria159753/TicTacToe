@@ -1,15 +1,23 @@
+#board1,h1{
+    display: flex;
+    width:100%;
+    justify-content: center;
+    align-items: center;
+}
 #board {
     width: 60vw;
     display: flex;
     flex-wrap: wrap;
     font-size: 100px;
     margin-top: 40px;
-    border: 1px solid green;
+    justify-content: center;
+    align-items: center;
+    
   }
 
   .box{
       width:2.5em;
       height:2.5em;
       border: 1px solid red;
-   
+  
   }
