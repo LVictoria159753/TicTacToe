@@ -1,7 +1,15 @@
-h1, div{
-    display:flex;
-    justify-content: center;
-    align-items: center;
-    gap:10px
-}
+#board {
+    width: 60vw;
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 100px;
+    margin-top: 40px;
+    border: 1px solid green;
+  }
 
+  .box{
+      width:2.5em;
+      height:2.5em;
+      border: 1px solid red;
+   
+  }
